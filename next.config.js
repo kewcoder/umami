@@ -25,6 +25,7 @@ const contentSecurityPolicy = [
   `style-src 'self' 'unsafe-inline'`,
   `connect-src 'self' api.umami.is cloud.umami.is`,
   `frame-ancestors 'self' ${frameAncestors}`,
+  `connect-src 'self' *.hit-pay.com`,
 ];
 
 const defaultHeaders = [
